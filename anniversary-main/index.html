@@ -1,0 +1,169 @@
+<html>
+
+<head>
+    <title>Ghassan AL Zahrani</title>
+    <style type="text/css">
+        body {
+
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .imgset {
+    position: relative; /* keep this so we can position the text on top */
+}
+
+.imgset img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.imgset .overlay-text {
+    position: absolute;
+    top: 8%; /* vertical center */
+    left: 50%; /* horizontal center */
+    transform: translate(-50%, -50%); /* center perfectly */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px black; /* makes it visible on bright areas */
+}
+
+        .card {
+            position: relative;
+            width: 400px;
+            height: 600px;
+            border: 10px solid #9612eb;
+            margin: 60px auto 0 auto;
+            box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+            background-image: url('../Ghassan website/Snapchat-1177660070.jpg');
+            
+            background-position: center;
+            /* Center the image */
+            background-repeat: no-repeat;
+            /* Do not repeat the image */
+            background-size: cover;
+            background-color: #3b3d3b;
+        }
+
+        .card .text-container {
+    width: 80%;
+    margin: 0px auto 0 auto;
+     /* semi-transparent dark background */
+    color: #ffffff; /* white text */
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+.card .text-container h1,
+.card .text-container h5,
+.card .text-container p {
+    color: #ffffff; /* make sure all text is white */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* optional, improves readability */
+}
+        .strikethrough {
+            text-decoration: line-through;
+        }
+
+        .card .text-container #head {
+            font-family: 'Nobile', sans-serif;
+            font-size: 1.5em;
+            margin: 60px auto 60px auto;
+        }
+
+        .card p {
+            font-size: 1.1em;
+            line-height: 1.4;
+            font-family: 'Nobile';
+            color: #ffffff;
+            font-style: italic;
+            text-align: center;
+            margin: 30px auto 0px auto;
+        }
+
+        .card .front {
+            position: absolute;
+            width: 110%;
+            height: 100%;
+            margin: -10px 0px 0px -10px;
+            border: 10px solid #860aeb;
+            backface-visibility: hidden;
+            background-image: url('../Ghassan website/IMG_20251119_131508_0266.jpg');
+            
+            background-size: contain;
+            transform-style: preserve-3d;
+            transform-origin: 0% 50%;
+            transform: perspective(800px) rotateY(0deg);
+            transition: all 0.8s ease-in-out;
+        }
+
+        .card:hover .front {
+            transform: perspective(800px) rotateY(-170deg);
+            background-color: #41718d;
+        }
+
+        .card:hover .back {
+            transform: perspective(800px) rotateY(-170deg);
+            box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+            background-color: #d2dcd2;
+        }
+
+        .card .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: 10px solid #9612eb;
+            margin: -10px 0px 0px -10px;
+            backface-visibility: visible;
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+            transform-style: preserve-3d;
+            transform-origin: 0% 50%;
+            transform: perspective(800px) rotateY(0deg);
+            transition: all 0.8s ease-in-out;
+            background-color: #c5cbc5;
+            box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .imgset {
+            position: relative;
+            z-index: 1;
+            margin-bottom: -215px;
+        }
+
+        .imgset img {
+            box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="card">
+        <div class="back"></div>
+        <div class="front">
+            <div class="imgset">
+                <img src="../Ghassan website/Snapchat-295817477.jpg" alt="cowboy ghassan" width="100%" height="100%">
+                <p class="overlay-text">To Ghassan <br>One Year Since We First Talked</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p id="head"></p>
+            <center>
+                <h1>One Year of Friendship</h1>
+            </center> Since the day we first talked "26-02-2025"<p></p><b>
+                <h5>365 of you annoying me "get a real friend, not an online one"</h5>
+            </b>
+            <p>ghassan, i cant belive its been a year since we first talked, time flies when you sppend it talking with the person you love, i wanna say thank you for every laugh, every advice and every moment i spent it talking with you, i believe you already know this, but you are on my top 3 favourite people on earth, thank you</p>
+            <p>happy anniversary love</p>
+            <p> Your Friend, Younes </p>
+        </div>
+    </div>
+    
+</body>
+
+</html>
